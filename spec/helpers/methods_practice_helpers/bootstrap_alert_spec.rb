@@ -236,8 +236,3 @@ describe MethodsPracticeHelpers do
   end
 
 end
-
-# <div class="alert alert-<TYPE-GOES-HERE> alert-dismissible" role="alert">
-#   <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-#   <MESSAGE-GOES-HERE>
-# </div>
