@@ -20,7 +20,7 @@ bundle exec guard
 
 > __If you're on Windows__, guard unfortunately doesn't work very well, so you'll have to just run `bundle exec rspec` each time you want to run your specs.
 
-When you start working on a method, remove the `, :pending` from the `describe` line with your method's name. For example, in `spec/helpers/methods_practice/image_tag_spec.rb`, we would change this line:
+Now start with one of the specs in `spec/helpers/methods_practice_helpers`. When you start working on a method, remove the `, :pending` from the `describe` line with your method's name. For example, in `spec/helpers/methods_practice/image_tag_spec.rb`, we would change this line:
 
 ``` ruby
 describe '#image_tag', :pending do
