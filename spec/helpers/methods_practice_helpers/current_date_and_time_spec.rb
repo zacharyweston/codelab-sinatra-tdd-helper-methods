@@ -7,7 +7,7 @@ describe MethodsPracticeHelpers do
 
     it 'returns the properly formatted date and time for February 14, 2015 at 7:27pm' do
       class Time
-        def self.new
+        def self.now
           Time.at(1423960041)
         end
       end
@@ -17,7 +17,7 @@ describe MethodsPracticeHelpers do
 
     it 'returns the properly formatted date and time for May 6, 2008 at 1:56am' do
       class Time
-        def self.new
+        def self.now
           Time.at(1210053366)
         end
       end

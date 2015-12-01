@@ -19,16 +19,43 @@ module MethodsPracticeHelpers
     # See how to use it at: http://apidock.com/ruby/Time/strftime
   end
 
-  # ------------------------------------------
-  # ANYTHING BEYOND THIS POINT IS OPTIONAL FOR
-  # THOSE WHO MIGHT WANT AN EXTRA CHALLENGE
-  # ------------------------------------------
+  # ---------------------------------------------------------------------
+  # ANYTHING BEYOND THIS POINT DOES NOT HAVE ANY SPECS WRITTEN, SO SHOULD
+  # ONLY BE COMPLETED AFTER A DEEPER DIVE INTO WRITING SPECS WITH RSPEC.
+  # THEY BECOME PROGRESSIVELY MORE DIFFICULT THE FURTHER DOWN YOU GO.
+  # ---------------------------------------------------------------------
 
-  def something_ipsum(number_of_ipsums)
+  def toggle_switch(state)
+    # `state` will contain a string with either the text "on" or "off". If
+    # it's "on", we should return "off". If it's "off", we should return "on".
+    # If it's neither "on" nor "off", we should return "broken".
+  end
+
+  def secret_code(text)
+    # You have come up with a secret code that you've shared with people who
+    # subscribe to your newsletter, with some messages on your site meant only
+    # for their eyes. To apply this code to text in the `text` variable, you
+    # need to:
+    #
+    #   1. Reverse the order of characters.
+    #      http://ruby-doc.org/core-2.2.0/String.html#method-i-reverse
+    #   2. Replace all any "a" with "4", any "e" with "3", any "i" with 1, any
+    #      "o" with "0", any "u" with "|_|", and any " " (space) with "#".
+    #      http://ruby-doc.org/core-2.2.0/String.html#method-i-gsub
+    #   3. Change any uppercase letters to lowercase and any lowercase letters
+    #      to uppercase.
+    #      http://ruby-doc.org/core-2.2.0/String.html#method-i-swapcase
+  end
+
+  def something_ipsum(minimum_characters)
     # You may have heard of Cat Ipsum or Hipster Ipsum. Make up a new one.
     # Replace "something" with the kind of ipsum you want to create, then
-    # generate text for the number of ipsums you want (here, we're defining
-    # an ipsum as a phrase or sentence).
+    # generate text for the minimum number of characters you want. Once you
+    # reach the minimum number of characters, you should stop. You may find
+    # these features of Ruby helpful:
+    #
+    #  - http://ruby-doc.org/core-2.2.0/String.html#method-i-size
+    #  - https://www.codecademy.com/courses/ruby-beginner-en-XYcN1/0/1
   end
 
   def images_of_cats(number_of_cats)
