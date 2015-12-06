@@ -1,3 +1,5 @@
+require 'nokogiri'
+
 module MethodsPracticeHelpersSpecHelpers
 
   def random_string(min_chars=8, max_chars=30)
