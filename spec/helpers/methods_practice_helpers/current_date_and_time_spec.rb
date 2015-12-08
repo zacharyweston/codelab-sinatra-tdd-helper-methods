@@ -25,6 +25,16 @@ describe MethodsPracticeHelpers do
       expect(current_date_and_time).to eq('May 6, 2008 at 1:56am')
     end
 
+    it 'returns the properly formatted date and time for May 13, 2008 at 12:52am' do
+      class Time
+        def self.now
+          Time.at(1210654366)
+        end
+      end
+
+      expect(current_date_and_time).to eq('May 13, 2008 at 12:52am')
+    end
+
   end
 
 end
