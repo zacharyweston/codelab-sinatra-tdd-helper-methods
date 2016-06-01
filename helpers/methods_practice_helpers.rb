@@ -5,7 +5,7 @@ module MethodsPracticeHelpers
     # "img-responsive" and "img-thumbnail". The image has an alt
     # attribute with the contents of alternate_text.
     %(
-      <img src='#{source}'class='img-responsive img-thumbnail' alt='#{alternate_text}''>
+      <img src='#{source}' class='img-responsive img-thumbnail' alt='#{alternate_text}'>
     )
   end
 
